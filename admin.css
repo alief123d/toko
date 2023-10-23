@@ -1,0 +1,61 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.add-item > a > button{
+    border: 0;
+    margin-left: 100px;
+    background-color: #fd6c6c;
+    height: 160px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.add-item > a > button:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.list > a > button{
+    border: 0;
+    margin-left: 100px;
+    background-color: #fd6c6c;
+    height: 160px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.list> a > button:hover{
+    background-color: #ff6347;
+    cursor: pointer;
+}
+
+.contain {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.log > a > button {
+    color: white;
+    font-weight: 800;
+    margin: 10px 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 25px;
+    background-color: tomato;
+    border: 0;
+}
+
+.log > a > button:hover {
+   background-color: red;
+   color: rgb(217, 184, 172);
+   cursor: pointer;
+}
